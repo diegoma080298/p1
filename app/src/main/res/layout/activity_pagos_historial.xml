@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PagosHistorial">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/PopupOverlay">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMenu"
+            android:layout_width="412dp"
+            android:layout_height="60dp"
+            android:background="#F6D7D7"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="412dp"
+                android:layout_height="60dp"
+                android:background="#F6D7D7"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/idBotonVolverTienda"
+                    android:layout_width="7dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:background="#F6D7D7"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/texto_volver"
+                    android:onClick="regresar"
+                    app:srcCompat="@drawable/ic_flecha_foreground" />
+
+                <ImageView
+                    android:id="@+id/imagenLogo"
+                    android:layout_width="18dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:layout_marginStart="10dp"
+                    app:srcCompat="@drawable/cip" />
+
+                <TextView
+                    android:id="@+id/txtcipcdach"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/titulo_cip_ca"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#E31E25"
+            app:tabTextColor="@color/white"
+            app:tabSelectedTextColor="@color/white"
+            app:tabIndicatorColor="@color/white">
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tabItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tab_text_1" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tabItem2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tab_text_2" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tabItem3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tab_text_3" />
+
+        </com.google.android.material.tabs.TabLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

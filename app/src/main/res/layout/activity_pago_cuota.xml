@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PagoCuota">
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutMenu"
+        android:layout_width="412dp"
+        android:layout_height="60dp"
+        android:background="#F6D7D7"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="412dp"
+            android:layout_height="60dp"
+            android:background="#F6D7D7"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/idBotonVolverTienda"
+                android:layout_width="7dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:background="#F6D7D7"
+                android:layout_gravity="center"
+                android:contentDescription="@string/texto_volver"
+                android:onClick="regresar"
+                app:srcCompat="@drawable/ic_flecha_foreground" />
+
+            <ImageView
+                android:id="@+id/imagenLogo"
+                android:layout_width="18dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                app:srcCompat="@drawable/cip" />
+
+            <TextView
+                android:id="@+id/txtcipcdach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/titulo_cip_ca"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutTitulo"
+        android:layout_width="412dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:background="#E31E25"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="412dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="@string/titulo_cuotas"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        app:cardBackgroundColor="@color/white"
+        android:foregroundGravity="center"
+        app:cardCornerRadius="20dp"
+        android:layout_marginBottom="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/idRecyclerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_dollar_foreground" />
+
+            <TextView
+                android:id="@+id/textMensajeDeuda"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textSize="17dp"
+                android:gravity="center_vertical"
+                android:text="@string/texto_su_deuda"
+                android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/idText"
+                    android:layout_width="30dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:gravity="center"
+                    android:text="@string/simbolo_soles"
+                    android:textColor="#000000"
+                    android:textSize="26sp" />
+
+                <TextView
+                    android:id="@+id/idTextDeudaTotal"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="5dp"
+                    android:gravity="center"
+                    android:text="@string/texto_deuda"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idRecyclerView"
+        android:layout_width="380dp"
+        android:layout_height="450dp"
+        android:layout_marginTop="250dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/relativeImg"
+        android:layout_width="315dp"
+        android:layout_height="311dp"
+        android:layout_marginTop="270dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageCheck"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:background="@drawable/check2" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relativeDeuda"
+        android:layout_width="292dp"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="145dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="292dp"
+            android:layout_height="80dp"
+            app:cardBackgroundColor="@color/white"
+            android:foregroundGravity="center"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_dollar_foreground" />
+
+                <TextView
+                    android:id="@+id/textMensajeDeuda2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="17dp"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:text="@string/texto_no_Deuda"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

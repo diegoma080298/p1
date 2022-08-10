@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/UNS/aplicaciones/cip_servicios/app/src/main/res/drawable-v24/borde.xml" value="0.1235" />
+        <entry key="..\:/UNS/aplicaciones/cip_servicios/app/src/main/res/drawable-v24/bordecar.xml" value="0.1235" />
+        <entry key="..\:/UNS/aplicaciones/cip_servicios/app/src/main/res/drawable-v24/bordecardcuota.xml" value="0.1235" />
+        <entry key="..\:/UNS/aplicaciones/cip_servicios/app/src/main/res/drawable-v24/bordecardv.xml" value="0.1235" />
+        <entry key="..\:/UNS/aplicaciones/cip_servicios/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/UNS/aplicaciones/cip_servicios/app/src/main/res/layout/activity_pago_cuota.xml" value="0.25" />
+        <entry key="..\:/UNS/aplicaciones/cip_servicios/app/src/main/res/layout/list_cuota.xml" value="0.33" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/drawable-v24/borde.xml" value="0.131" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/drawable-v24/bordecar.xml" value="0.131" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/drawable-v24/bordecardcuota.xml" value="0.131" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/drawable-v24/bordecardv.xml" value="0.131" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/drawable-v24/botonnav.xml" value="0.131" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/drawable-v24/ic_noticias_background.xml" value="0.1505" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/drawable-v24/ic_noticias_foreground.xml" value="0.1505" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/drawable-v24/sombreado.xml" value="0.131" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/drawable/bordearedittext.xml" value="0.131" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/drawable/border.xml" value="0.131" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/drawable/border_error.xml" value="0.131" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/drawable/border_sucess.xml" value="0.131" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/drawable/botonredondos.xml" value="0.131" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/drawable/ic_dollar_background.xml" value="0.131" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/drawable/ic_email_24.xml" value="0.131" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/drawable/ic_shop.xml" value="0.1505" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/drawable/icon_email.xml" value="0.1505" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_alquilar_ambientes.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_certificado.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_comunicado.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_conferencia.xml" value="0.22" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_convenio.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_convocatorio.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_description_conferencias.xml" value="0.22" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_description_noticias.xml" value="0.22" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_historial_alquiler.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_historial_compras.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_historial_cuotas.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_historial_pagos.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_informacion.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_iss.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_noticias.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_pagar.xml" value="0.22" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_pago_cuota.xml" value="0.22" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_pagos_historial.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_servicio_menu.xml" value="0.33" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_servicios_menu.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_tienda_virtual.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_tramite_certificado.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_ubicacion.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_usuario.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/fragment_compras.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/fragment_historial_alquiler.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/fragment_historial_compras.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/fragment_historial_cuotas.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/fragment_pagos_historial.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/fragment_ubicacion.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/list_compras.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/list_comunicado.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/list_conferencia.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/list_convenio.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/list_convocatoria.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/list_cuota.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/list_cuotapagadas.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/list_historial_alquiler.xml" value="0.33" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/list_noticias.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/list_tienda.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/tab_cuota.xml" value="0.203125" />
+        <entry key="..\:/Users/USUARIO/Downloads/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/menu/navigation_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/diego/Downloads/cip_servicios-20220805T213729Z-001/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_alquilar_ambientes.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/diego/Downloads/cip_servicios-20220805T213729Z-001/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_comunicado.xml" value="0.15489130434782608" />
+        <entry key="..\:/Users/diego/Downloads/cip_servicios-20220805T213729Z-001/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_conferencia.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/diego/Downloads/cip_servicios-20220805T213729Z-001/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_convenio.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/diego/Downloads/cip_servicios-20220805T213729Z-001/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_convocatorio.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/diego/Downloads/cip_servicios-20220805T213729Z-001/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/activity_noticias.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/diego/Downloads/cip_servicios-20220805T213729Z-001/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/fragment_historial_alquiler.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/diego/Downloads/cip_servicios-20220805T213729Z-001/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/fragment_historial_compras.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/diego/Downloads/cip_servicios-20220805T213729Z-001/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/fragment_historial_cuotas.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/diego/Downloads/cip_servicios-20220805T213729Z-001/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/list_compras.xml" value="0.15489130434782608" />
+        <entry key="..\:/Users/diego/Downloads/cip_servicios-20220805T213729Z-001/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/list_comunicado.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/diego/Downloads/cip_servicios-20220805T213729Z-001/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/list_conferencia.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/diego/Downloads/cip_servicios-20220805T213729Z-001/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/list_convenio.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/diego/Downloads/cip_servicios-20220805T213729Z-001/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/list_convocatoria.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/diego/Downloads/cip_servicios-20220805T213729Z-001/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/list_cuota.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/diego/Downloads/cip_servicios-20220805T213729Z-001/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/list_cuotapagadas.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/diego/Downloads/cip_servicios-20220805T213729Z-001/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/list_historial_alquiler.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/diego/Downloads/cip_servicios-20220805T213729Z-001/cip_servicios/cip_servicios/cip_servicios/app/src/main/res/layout/list_noticias.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/diego/Downloads/cip_servicios/cip_servicios/app/src/main/res/layout/activity_alquilar_ambientes.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/diego/Downloads/cip_servicios/cip_servicios/app/src/main/res/layout/activity_iss.xml" value="0.33" />
+        <entry key="..\:/Users/diego/Downloads/cip_servicios/cip_servicios/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/diego/Downloads/cip_servicios/cip_servicios/app/src/main/res/layout/activity_pago_cuota.xml" value="0.25" />
+        <entry key="..\:/Users/diego/Downloads/cip_servicios/cip_servicios/app/src/main/res/layout/activity_tienda_virtual.xml" value="0.25" />
+        <entry key="..\:/Users/diego/Downloads/cip_servicios/cip_servicios/app/src/main/res/layout/list_cuota.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/diego/Downloads/cip_servicios/cip_servicios/app/src/main/res/layout/list_tienda.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

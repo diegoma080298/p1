@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">CIP CDACH</string>
+    <string name="ip2">http://192.168.1.100:8081</string>
+    <string name="ip">http://gfxfjzjc.lucusvirtual.es/</string>
+    <string name="titulo_cip_ca">CIP ANCASH - CHIMBOTE</string>
+    <string name="titulo_servicios">SERVICIOS</string>
+    <string name="texto_cuotas">Pago de Cuotas</string>
+    <string name="titulo_cuotas">PAGO DE CUOTAS</string>
+    <string name="texto_recibos">Recibos</string>
+    <string name="texto_estadocuenta">Historial de Pagos</string>
+    <string name="texto_certificado">Tramitar Certificado</string>
+    <string name="titulo_tiendavirtual">TIENDA VIRTUAL</string>
+    <string name="texto_tiendavirtual">Tienda Virtual</string>
+    <string name="texto_iss">Instituto de Servicios Sociales</string>
+    <string name="texto_alquilar">Alquiler de Ambientes</string>
+    <string name="texto_su_deuda">Su deuda total es:</string>
+    <string name="texto_deuda">1000</string>
+    <string name="title_activity_ubicacion">Map</string>
+
+    <!--Strings generales -->
+    <string name="texto_no_Deuda">Usted no tiene ninguna cuota pendiente</string>
+    <string name="texto_mes_mayusculas">ENERO</string>
+    <string name="text_mes_minisculas">Enero</string>
+    <string name="texto_año">2022</string>
+    <string name="texto_comprar">COMPRAR</string>
+    <string name="texto_pagar">PAGAR</string>
+    <string name="texto_pagar_monto">Pagar S/. 100</string>
+    <string name="texto_Stock">Stock: </string>
+    <string name="simbolo_soles">S/</string>
+    <string name="text_numero">00</string>
+    <string name="text_uno">1</string>
+    <string name="texto_producto">Producto:</string>
+    <string name="texto_volver">Volver</string>
+    <string name="simboloSuma">+</string>
+    <string name="simboloResta">-</string>
+    <string name="texto_fecha">1/1/2022</string>
+    <string name="texto_horas">12:00</string>
+    <string name="tarjeta_correo">Correo electronico</string>
+    <string name="tarjeta_numero">Numero de tarjeta</string>
+    <string name="tarjeta_mes">MM</string>
+    <string name="tarjeta_anno">AA</string>
+    <string name="tarjeta_cvv">CVV</string>
+
+
+    <!--Strings de activity Pagar -->
+    <string name="pagar_texto_titulo">Usted pagara:</string>
+
+    <string name="historial_pagos_texto_titulo">Historial de Pagos</string>
+    <string name="historial_pagos_cuotas">Cuotas Pagadas</string>
+    <string name="historial_pagos_compras">Compras Realizadas</string>
+    <string name="historial_pagos_alquileres">Alquileres Hechos</string>
+
+    <string name="compras_titulo">Historial de Compras</string>
+    <string name="compras_texto_producto">Polo CIP</string>
+    <string name="compras_texto_fecha">01/08/2022</string>
+    <string name="compras_texto_cantidad">Cantidad:</string>
+    <string name="compras_texto_monto">Monto:</string>
+    <string name="compras_estado">Recogido</string>
+
+    <string name="historial_cuotas_titulo">Historial de Cuotas</string>
+    <string name="historial_texto_mes">Mes:</string>
+    <string name="historial_texto_año">Año:</string>
+    <string name="historial_texto_monto">Monto:</string>
+
+    <!--Strings del activity tienda virtual -->
+    <string name="historial_alquiler_nombreAmbiente">Nombre Ambiente:</string>
+    <string name="historial_alquiler_ambiente">Centro Recreacional - Cancha Pequeña</string>
+    <string name="historial_alquiler_fechaAlquiler">Fecha Alquiler:</string>
+    <string name="historial_alquiler_fechaAlq">01/08/2022</string>
+    <string name="historial_alquiler_horas">Horas:</string>
+    <string name="historial_hora_inicio">Hora Inicio:</string>
+    <string name="historia_hora">12:00</string>
+
+    <!--Strings del activity tienda virtual -->
+    <string name="tienda_producto">POLO CIP</string>
+    <string name="tienda_texto_stock">Stock disponible:</string>
+    <string name="tienda_texto_cantidad">Cantidad:</string>
+    <string name="tienda_texto_costo">Costo: S/</string>
+    <string name="tienda_campo_numero">10</string>
+    <string name="tienda_campo_cantidad">1</string>
+    <string name="tienda_boton_comprar">Comprar</string>
+
+
+    <string name="iss_quees">¿QUE ES EL INSTITUTO DE SERVICIOS SOCIALES?</string>
+    <string name="iss_descripcion">El Instituto de Servicios Sociales del Colegio de 
+        Ingenieros del Perú, cuya denominación abreviada es ISS, es el encargado de los
+        Servicios Sociales, Mutual, Previsión, Seguridad, Recreación y otros similares 
+        que brinda a sus colegiados y sus familiares directos</string>
+    <string name="iss_quienes">¿Quienes integran el ISS-CIP?</string>
+    <string name="iss_quienes1">• Todos los Ingenieros colegiados Ordinarios y
+        Vitalicios habilitados del CIP.</string>
+    <string name="iss_quienes2">• Es importante que el colegiado tenga conocimiento
+        que la subsistencia organizacional y económica del ISS-CIP, así como el
+        cumplimiento de sus objetivos, se sustenta en los S/. 2.50 soles que los
+        ingenieros aportan dentro del pago de su cuota social mensual a su Consejo
+        Departamental correspondiente.</string>
+    <string name="iss_quienes3">• Cabe indicar que los ingenieros VITALICIOS no
+        están exonerados de aportar este monto.</string>
+    <string name="iss_quienesderecho">¿Quienes tienen derecho a los beneficios del ISS-CIP?</string>
+    <string name="iss_quienesderecho1">• Según Articulo N° 20 del Reglamento vigente del ISS-CIP
+        que a la letra indica: Tendrán derecho a los beneficios del ISS todos los ingenieros
+        Ordinarios y Vitalicios que se mantengan al día en sus cuotas institucionales
+        (ordinarias o vitalicias) y que estas hayan sido transferidas tanto al Consejo Departamental
+        como al Consejo Nacional. El plazo permitido de deudas será hasta tres (3) meses antes del
+        evento que genera el beneficio solicitado y cumplan con los requisitos establecidos en el
+        presente estatuto, según el tipo de asignación solicitada. En el caso de los beneficiarios
+        mayores de 80 años, el plazo permitido de deudas será hasta seis (6) meses. La condición de
+        vitalicio por sí sola no implica exoneración del pago de la cuota ISS.</string>
+    <string name="iss_quienesderecho2">• Quedarán exceptuados permanentemente de la obligación del
+        aporte al ISS los ingenieros Vitalicios mayores de 70 años, que hayan cotizado adicionalmente
+        al menos durante 10 años y que tengan diagnóstico de invalidez permanente o enfermedad
+        terminal.</string>
+    <string name="iss_formatos">FORMATOS DE DECLARACIÓN JURADA PARA LOS TRÁMITES DE ASIGNACIONES
+        QUE BRINDA EL ISS-CIP</string>
+    <string name="iss_formato1">Formato de Carta Declaratoria de Beneficiarios</string>
+    <string name="iss_formato2">Declaración Jurada Solicitud de Asignación por Fallecimiento del Titular</string>
+    <string name="iss_formato3">Declaración Jurada Solicitud de Asignación por Fallecimiento del Cónyuge</string>
+    <string name="iss_formato4">Declaración Jurada Solicitud de Asignación por Fallecimiento de Hijos Menores de 18 años</string>
+    <string name="iss_formato5">Declaración Jurada Solicitud de Asignación por Invalidez Permanente del Titular</string>
+    <string name="iss_formato6">Declaración Jurada Solicitud de Apoyo Solidario del Titular</string>
+    <string name="iss_enviarcorreo">CORREO PARA ENVIAR SU CARTA DECLARATORIA LEGALIZADA:</string>
+    <string name="iss_correo">colegiacion.cdachimbote@cip.org.pe</string>
+
+    <string name="alquiler_ambiente">Auditorio 2do Nivel (05 Horas)</string>
+    <string name="alquiler_ambiente2">Auditorio 4to Nivel (05 Horas)</string>
+    <string name="alquiler_texto_costo">Costo: S/</string>
+    <string name="alquiler_texto_limpieza">Derecho a limpieza: S/</string>
+    <string name="alquiler_texto_sonido">Equipo de sonido: S/</string>
+    <string name="alquiler_texto_equipo">Equipo multimedia: S/</string>
+    <string name="alquiler_texto_incluye">Incluye:</string>
+    <string name="alquiler_texto_capac">Capacidad:</string>
+    <string name="alquiler_texto_distac">Capacidad con Distaciamiento social:</string>
+    <string name="alquiler_campo_costo">400</string>
+    <string name="alquiler_campo_incluye">90 Sillas plasticas</string>
+    <string name="alquiler_campo_capacidad">80 personas</string>
+    <string name="alquiler_boton_Alquilar">Alquilar</string>
+    <string name="alquiler_texto_fechaAlq">Escoger fecha:</string>
+    <string name="alquiler_texto_horaAlq">Escoger hora:</string>
+    <string name="alquiler_texto_aviso">Antes de pagar, llamar al 988006969 para consultar la disponibilidad</string>
+
+
+    <string name="alquiler_centro_recreacional">Centro Recreacional CIPCDACH</string>
+    <string name="alquiler_texto_costohora">(Costo por hora)</string>
+    <string name="alquiler_texto_lugar">Lugar</string>
+    <string name="alquiler_texto_publico">Publico en General S/</string>
+    <string name="alquiler_texto_habilitados">Habilitados S/</string>
+    <string name="alquiler_texto_horas">Hora</string>
+    <string name="alquiler_texto_por">Alquilar por:</string>
+    <string name="alquiler_cancha_peque">Cancha Pequeña</string>
+    <string name="alquiler_cancha_mediana">Cancha Mediana</string>
+    <string name="alquiler_losa">Losa Multiusos</string>
+    <string name="title_activity_pagos_historial">PagosHistorial</string>
+    <string name="tab_text_1">Cuotas</string>
+    <string name="tab_text_2">Alquiler</string>
+    <string name="tab_text_3">Compras</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

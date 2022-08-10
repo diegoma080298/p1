@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.servicios">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".ActivityLogin"
+            android:exported="false" />
+        <activity
+            android:name=".DescriptionNoticiasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityNoticias"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityConvocatoria"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityConvenio"
+            android:exported="false" />
+        <activity
+            android:name=".DescriptionConferenciasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityConferencia"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityComunicado"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityInformacion"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".MenuServicio"
+            android:exported="false" />
+        <activity
+            android:name=".PagosHistorial"
+            android:exported="false"
+            android:label="@string/title_activity_pagos_historial"
+            android:theme="@style/Theme.Servicios.NoActionBar" />
+        <activity
+            android:name=".Pagar"
+            android:exported="false" />
+        <activity
+            android:name=".vistas.ActivityAlquilarAmbientes"
+            android:exported="false" />
+        <activity
+            android:name=".vistas.ActivityRegister"
+            android:exported="false" />
+        <activity
+            android:name=".vistas.ActivityISS"
+            android:exported="false" />
+        <activity
+            android:name=".TiendaVirtual"
+            android:exported="false" />
+        <activity
+            android:name=".PagoCuota"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".ActivityUbicacion"
+            android:label="@string/title_activity_ubicacion" />
+        <activity
+            android:name=".ActivitySplash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

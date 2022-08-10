@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vistas.ActivityAlquilarAmbientes">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutMenu"
+        android:layout_width="412dp"
+        android:layout_height="60dp"
+        android:background="#F6D7D7"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="412dp"
+            android:layout_height="60dp"
+            android:background="#F6D7D7"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/idBotonVolverTienda"
+                android:layout_width="7dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:background="#F6D7D7"
+                android:layout_gravity="center"
+                android:contentDescription="@string/texto_volver"
+                android:onClick="regresar"
+                app:srcCompat="@drawable/ic_flecha_foreground" />
+
+
+            <ImageView
+                android:id="@+id/imagenLogo"
+                android:layout_width="18dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                app:srcCompat="@drawable/cip" />
+
+            <TextView
+                android:id="@+id/txtcipcdach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/titulo_cip_ca"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutTitulo"
+        android:layout_width="412dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:background="#E31E25"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="412dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="@string/texto_alquilar"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="381dp"
+        android:layout_height="573dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutTitulo">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textAuditorio2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/alquiler_ambiente"
+                android:textAlignment="center"
+                android:textColor="@color/azul"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="17sp"
+                    android:text="@string/alquiler_texto_costo"
+                    android:textAlignment="textEnd"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/idTextCosto2"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:textSize="17sp"
+                    android:text="@string/alquiler_campo_costo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/alquiler_texto_limpieza"
+                    android:textAlignment="textEnd"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/idTextLimp2"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:textSize="17sp"
+                    android:text="@string/alquiler_campo_costo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="17sp"
+                    android:text="@string/alquiler_texto_sonido"
+                    android:textAlignment="textEnd"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/idTextSonido2"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:textSize="17sp"
+                    android:text="@string/alquiler_campo_costo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="17sp"
+                    android:text="@string/alquiler_texto_equipo"
+                    android:textAlignment="textEnd"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/idTextMulti2"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:text="@string/alquiler_campo_costo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="17sp"
+                    android:text="@string/alquiler_texto_incluye"
+                    android:textAlignment="textEnd"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/idTextIncluye2"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:textSize="17sp"
+                    android:text="@string/alquiler_campo_incluye" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="17sp"
+                    android:text="@string/alquiler_texto_capac"
+                    android:textAlignment="textEnd"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/idTextCap2"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:textSize="17sp"
+                    android:text="@string/alquiler_campo_capacidad" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/TxtescogerF2"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="17sp"
+                    android:text="@string/alquiler_texto_fechaAlq" />
+                <EditText
+                    android:id="@+id/idEditFecha1"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="@string/texto_fecha"
+                    android:focusable="false"/>
+
+                <Button
+                    android:id="@+id/idBotonAlq2"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:backgroundTint="@color/rojocip"
+                    android:text="@string/alquiler_boton_Alquilar"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/adv1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="17sp"
+                android:text="@string/alquiler_texto_aviso" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="14dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/alquiler_ambiente2"
+                android:textAlignment="center"
+                android:textColor="@color/azul"
+                android:textSize="25sp"
+                android:textStyle="bold|italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="17sp"
+                    android:text="@string/alquiler_texto_costo"
+                    android:textAlignment="textEnd"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/idTextCosto4"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:text="@string/alquiler_campo_costo"
+                    android:textColor="#757575" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:text="@string/alquiler_texto_limpieza"
+                    android:textAlignment="textEnd"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/idTextLimp4"
+                    android:layout_width="120dp"
+                    android:textSize="17sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/alquiler_campo_costo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="17sp"
+                    android:text="@string/alquiler_texto_sonido"
+                    android:textAlignment="textEnd"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/idTextSonido4"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/alquiler_campo_costo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:text="@string/alquiler_texto_equipo"
+                    android:textAlignment="textEnd"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/idTextMulti4"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:text="@string/alquiler_campo_costo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="17sp"
+                    android:text="@string/alquiler_texto_incluye"
+                    android:textAlignment="textEnd"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/idTextIncluye4"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:textSize="17sp"
+                    android:layout_weight="1"
+                    android:text="@string/alquiler_campo_incluye" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="17sp"
+                    android:text="@string/alquiler_texto_capac"
+                    android:textAlignment="textEnd"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/idTextCap4"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:textSize="17sp"
+                    android:text="@string/alquiler_campo_capacidad" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/TxtescogerF4"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="17sp"
+                    android:text="@string/alquiler_texto_fechaAlq" />
+                <EditText
+                    android:id="@+id/idEditFecha2"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="@string/texto_fecha"
+                    android:focusable="false"/>
+
+                <Button
+                    android:id="@+id/idBotonAlq4"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:backgroundTint="@color/rojocip"
+                    android:text="@string/alquiler_boton_Alquilar"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/adv2"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="17sp"
+                android:text="@string/alquiler_texto_aviso" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="14dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/alquiler_centro_recreacional"
+                    android:textAlignment="center"
+                    android:textColor="@color/azul"
+                    android:textSize="25sp"
+                    android:textStyle="bold|italic" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp" />
+
+                <ImageView
+                    android:id="@+id/idImagenCentro"
+                    android:layout_width="match_parent"
+                    android:layout_height="550dp"
+                    app:srcCompat="@drawable/centrorecrea"
+                    tools:ignore="ImageContrastCheck" />
+
+                <RadioGroup
+                    android:id="@+id/idRadioGrupoCentro"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp">
+
+                    <RadioButton
+                        android:id="@+id/idRadioPeque"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:checked="true"
+                        android:text="@string/alquiler_cancha_peque" />
+
+                    <RadioButton
+                        android:id="@+id/idRadioMedia"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:text="@string/alquiler_cancha_mediana" />
+
+                    <RadioButton
+                        android:id="@+id/idRadioLosa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:text="@string/alquiler_losa" />
+                </RadioGroup>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView76"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/alquiler_texto_por"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/idBotonSumarHoras"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="8dp"
+                        android:backgroundTint="@color/rojocip"
+                        android:onClick="sumarHora"
+                        android:text="@string/simboloSuma"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/idTextHorasCentro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/text_uno"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/idBotonRestarHoras"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="8dp"
+                        android:backgroundTint="@color/rojocip"
+                        android:onClick="restarHora"
+                        android:text="@string/simboloResta"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/textoHoras"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/alquiler_texto_horas"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"/>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/TxtescogerFC"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:textSize="17sp"
+                        android:text="@string/alquiler_texto_fechaAlq" />
+                    <EditText
+                        android:id="@+id/idEditFecha3"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:hint="@string/texto_fecha"
+                        android:focusable="false"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/TxtescogerHC"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:textSize="17sp"
+                        android:text="@string/alquiler_texto_horaAlq" />
+                    <EditText
+                        android:id="@+id/idEditHora"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:hint="@string/texto_horas"
+                        android:focusable="false"/>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/idBotonAlqCentro"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/rojocip"
+                    android:onClick="obtenerRadioOpcion"
+                    android:text="@string/alquiler_boton_Alquilar"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
